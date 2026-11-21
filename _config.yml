@@ -1,0 +1,7 @@
+url: "https://rtqichen.github.io"
+baseurl: ""
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
