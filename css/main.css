@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #246fc4;
   text-decoration: none;
 }
 
@@ -191,6 +191,26 @@ pre>code {
 
 .site-title, .site-title:visited {
   color: #424242;
+}
+
+.navigation-wrapper .navigation-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.page-navigation {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation-wrapper .navigation-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding-bottom: 8px;
+  }
 }
 
 .site-nav .menu-icon {
@@ -459,13 +479,13 @@ ul.publications .authors {
 }
 
 ul.publications .journal-info {
-  color: #828282;
+  color: #737373;
   font-size: 0.9rem;
 }
 
 ul.publications .year {
   float: right;
-  color: #828282;
+  color: #737373;
   font-size: 0.9rem;
 }
 
